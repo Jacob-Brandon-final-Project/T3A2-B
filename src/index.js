@@ -4,11 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ShopPage from './pages/ShopPage';
+import BreaksPage from './pages/BreaksPage';
+import ContactUs from './pages/ContactUs';
+import ArtistsPage from './pages/ArtistsPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
-
+        <Route index element={<HomePage/>}/>
+        <Route path='shop' element={<ShopPage/>}/>
+        <Route path='breaks' element={<BreaksPage/>}/>
+        <Route path='contact' element={<ContactUs/>}/>
+        <Route path='artists' element={<ArtistsPage/>}/>
     </Route>
   )
 )
