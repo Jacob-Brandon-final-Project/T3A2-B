@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net" modified="2023-12-01T01:58:01.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Q_IJGvCdiwvVJ1OUBo7a" version="21.6.6" type="device">
+  <diagram name="Page-1" id="NZlHyGEqTslk1zjSbQB2">
+    <mxGraphModel dx="1386" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Chd8O9vzAeCgjVA3019-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Chd8O9vzAeCgjVA3019-2" value="Front-End&lt;br&gt;Deployment: Netlify" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="200" height="200" as="geometry">
+            <mxRectangle x="240" y="240" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Chd8O9vzAeCgjVA3019-5" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5Chd8O9vzAeCgjVA3019-2">
+          <mxGeometry x="40" y="65" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Chd8O9vzAeCgjVA3019-3" value="Back-End&lt;br&gt;Deployment: Heroku" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
