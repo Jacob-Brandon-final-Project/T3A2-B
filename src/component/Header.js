@@ -6,7 +6,7 @@ import { TiShoppingCart } from "react-icons/ti";
 
 const Header = () => {
   return (
-    <header className="fixed shadow-md w-full h-32 px-2 md:px-4 z-50">
+    <header className="fixed shadow-md w-full h-16 px-2 md:px-4 z-50">
         {/* desktop */}
 
         <div className="flex items-center h-full justify-between">
@@ -24,12 +24,12 @@ const Header = () => {
                   <Link to={"contact"}>Contact</Link>
                   <Link to={"artists"}>Artists</Link>
               </nav>
-              <div className="text-2xl text-slate-600" >
-                  <TiShoppingCart />
-                  
+              <div className="text-2xl text-slate-600 relative" >
+                  <TiShoppingCart/>
+                  <div className="absolute -top-1 -right-1 text-white bg-red-500 h-4 w-4 rounded-full m-0 p-0 text-sm text-center">0</div>
               </div>
-              <div className="text-2xl text-slate-600">
-              <FaCircleUser />
+              <div className="text-2xl text-slate-600 cursor-pointer">
+              <FaCircleUser/>
               </div>
             </div>
             
