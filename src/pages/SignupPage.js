@@ -1,4 +1,4 @@
-import FormHeader from "../component/FormHeader";
+import Header from "../component/FormHeader";
 import Signup from "../component/Signup"
 
 export default function SignupPage(){
