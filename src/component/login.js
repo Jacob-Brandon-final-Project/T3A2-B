@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { loginFields } from "../constants/formFields";
-import Input from "./Input";
+import FormAction from "./FormAction";
+import FormExtra from "./FormExtra";
+import Input from "./input";
 
 const fields=loginFields;
 let fieldsState = {};
@@ -11,6 +13,15 @@ export default function Login(){
 
     const handleChange=(e)=>{
         setLoginState({...loginState,[e.target.id]:e.target.value})
+    }
+
+    const handleSubmit=(e)=>{
+        e.preventDefault();
+        authenticateUser();
+    }
+
+    const authenticateUser = () =>{
+
     }
 
     return(
@@ -33,6 +44,9 @@ export default function Login(){
                 )
             }
         </div>
+
+        <FormExtra/>
+        <FormAction handleSubmit={handleSubmit} text="Login"/>
         </form>
     )
 
