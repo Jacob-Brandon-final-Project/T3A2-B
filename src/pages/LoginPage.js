@@ -1,4 +1,5 @@
 import Header from "../component/FormHeader"
+import Login from "../component/login"
 
 
 export default function LoginPage(){
@@ -10,6 +11,7 @@ export default function LoginPage(){
                 linkName='Signup'
                 linkUrl="/signup"
                 />
+            <Login/>
         
         </>
     )
