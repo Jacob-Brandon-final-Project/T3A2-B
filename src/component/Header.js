@@ -28,9 +28,11 @@ const Header = () => {
                   <TiShoppingCart/>
                   <div className="absolute -top-1 -right-1 text-white bg-red-500 h-4 w-4 rounded-full m-0 p-0 text-sm text-center">0</div>
               </div>
-              <div className="text-2xl text-slate-600 cursor-pointer">
-              <FaCircleUser/>
-              </div>
+              <Link to="/login">
+                <div className="text-2xl text-slate-600 cursor-pointer">
+                    <FaCircleUser/>
+                </div>
+              </Link>
             </div>
             
         </div>
