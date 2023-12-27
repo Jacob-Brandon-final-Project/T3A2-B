@@ -6,7 +6,7 @@ function App() {
   return (
 
     <div>
-        <Header/>
+        <Header />
         <main className='pt-16'>
           <Outlet/>
         </main>
