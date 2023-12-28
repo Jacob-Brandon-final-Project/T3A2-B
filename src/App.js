@@ -1,7 +1,8 @@
 import { Outlet } from 'react-router';
 import './App.css';
 import Header from './component/Header';
-import Footer from './component/Footer';
+
+import FooterComponent from './component/Footer'
 
 function App() {
   return (
@@ -11,12 +12,13 @@ function App() {
         <main className='pt-16'>
           <Outlet/>
         </main>
+        <FooterComponent />
     </div>
 
-  
+    
 
 
   );
-}
+};
 
 export default App; 
