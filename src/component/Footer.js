@@ -13,7 +13,7 @@ function FooterComponent() {
                             href="#"
                             img src={logo}
                             alt="Ashton's Cardboard Circus logo"
-                            name="Ashton's"
+                            name="Ashton's Cardboard Circus"
                         />
                     </div> 
                     <Footer.Divider />
