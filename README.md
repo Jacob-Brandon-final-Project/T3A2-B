@@ -154,12 +154,12 @@ The purpose of the website: is for the client to be able to expand their brand. 
 
 # Dataflow Diagram
 
-
+![Alt text](<dataflow diagram for mern ecommerce website.JPG>)
 
 
 
 # Application Architecture Diagram
-
+![Alt text](<src/photos/app arch diagram.JPG>) [Title](README.md)
 
 
 # User Stories
