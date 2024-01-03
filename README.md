@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### R10 Link to deployed website: 
-Heroku:
+Heroku: https://ashtonmernapp1-0f2d2265be28.herokuapp.com/
 
 Netlify: 
 
@@ -214,12 +214,15 @@ Will have a scroll to get to top and bottom of pages.
 
 ### Home page:
 
-
+![Alt text](<src/photos/Home page.png>)
 
 ### Shop pages:
 
+![Alt text](<All product.png>)
 
+![Alt text](BasketBall.png)
 
+![Alt text](DBZ.png)
 This was one of our original ideas for the shop pages but the red is to bright and overpowering. A filter by: NBA, Boxes, Singles, Magic the gathering and Dragon ball Z.
 
 
@@ -233,23 +236,25 @@ We decided to Change all the Shop page to a gradient colour because it is more a
 
 ### Breaks page:
 
+![Alt text](<Breaks Page-DD-1.png>)
 
+did change this one up 
 
 ### Artists Page:
 
-
+![Alt text](Artistpage.png)
 
 ### Contact Us page:
 
-
+![Alt text](contact-1.png)
 
 ### Log In page:
 
-
+![Alt text](Login.png)
 
 ### Sign up Page:
 
-
+![Alt text](Signup.png)
 
 ### Tablet View:
 
@@ -257,5 +262,22 @@ We decided to Change all the Shop page to a gradient colour because it is more a
 
 # Screenshots of your Trello board throughout the duration of the project
 
+![Alt text](CustAcc-1.png)
 
+![Alt text](CustService-1.png)
 
+![Alt text](Search.png)
+
+![Alt text](ShopCart.png)
+
+### Mongodb test
+
+![Alt text](test1.png) 
+
+![Alt text](test2.png) 
+
+![Alt text](test3.png) 
+
+![Alt text](usertest1.png)
+
+ ![Alt text](usertest2.png)
