@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import loginformanimation from "../photos/loginformanimation.gif";
 import { BiShow, BiHide } from "react-icons/bi";
 import { Link, useNavigate} from "react-router-dom";
-import {toast} from "react-hot-toast"
+
 
 
 
@@ -44,7 +44,7 @@ const Login = () => {
 
             const dataRes = await fetchData.json()
             console.log(dataRes)
-            toast(dataRes.message)
+           
 
             if (dataRes.alert) {
                 setTimeout(() => {
