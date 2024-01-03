@@ -9,7 +9,11 @@ import ShopPage from './pages/ShopPage';
 import BreaksPage from './pages/BreaksPage';
 import ContactUs from './pages/ContactUs';
 import ArtistsPage from './pages/ArtistsPage';
+
 import ProductDetails from './component/productDetails'
+
+=======
+import Login from './pages/login'
 
 
 const router = createBrowserRouter(
@@ -22,8 +26,13 @@ const router = createBrowserRouter(
         <Route path='breaks' element={<BreaksPage/>}/>
         <Route path='contact' element={<ContactUs/>}/>
         <Route path='artists' element={<ArtistsPage/>}/>
+
       </Route>
       
+=======
+        <Route path='login' element={<Login/>}/>
+    </Route>
+
   )
 )
 
