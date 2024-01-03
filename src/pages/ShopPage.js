@@ -9,7 +9,7 @@ const ShopPage = () => {
 
   const fetchProducts = async (category) => {
     try {
-      const response = await axios.get(`http://localhost:5000/products/AllItems?category=${category}`);
+      const response = await axios.get(`https://ashtonmernapp1-0f2d2265be28.herokuapp.com//products/AllItems?category=${category}`);
       console.log(response.data);
       setProducts(response.data);
     } catch (error) {
