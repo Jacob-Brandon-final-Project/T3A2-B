@@ -71,12 +71,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-### R10
-## Link to deployed website: 
+### R10 Link to deployed website: 
+Heroku:
+
+Netlify: 
 
 
-### R11 
-## Link to Github repo:
+### R11  Link to Github repo:
  https://github.com/Jacob-Brandon-final-Project/t3a2-b-servers
 
 https://github.com/Jacob-Brandon-final-Project/t3a2-b-client
