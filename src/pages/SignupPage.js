@@ -33,12 +33,22 @@ function SignupPage () {
             }
         })
     }
-
-    const handleSubmit = (e)=>{
-        e.preventDefault()
-        const {firstName, email, password, confirmPassword} = data
+console.log(process.env.REACT_APP_SERVER_DOMAIN)
+    const handleSubmit = async (e)=>{
+        e.preventDefault();
+        const {firstName, email, password, confirmPassword} = data;
         if (firstName && email && password && confirmPassword) {
             if (password === confirmPassword) {
+                const fetchData = await fetch(`${process.env.REACT_APP_SERVER_DOMAIN}/signup`, {
+                  method  : "POST",
+                  headers : {
+                    "content-type" : "application/json"
+                  },
+                  body : JSON.stringify(data)
+                })
+
+                const dataRes = await fetchData.json()
+                console.log(dataRes)
                 alert ("successfull")
                 navigate ("/login")
             }
